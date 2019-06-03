@@ -4,7 +4,7 @@ $(document).ready(function() {
     var gender = $("select#gender").val();
 
     if (age) {
-    if (gender === 'male' && age < 26) {
+    if (gender === 'female' && age < 26) {
         quote += "Zach Morris";
       }
 
